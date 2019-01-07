@@ -50,7 +50,6 @@ public class MainActivity extends FragmentActivity {
             group.addView(imageView,layoutParams);
         }
 
-
         //获取自定义viewpager 然后设置背景图片
         vPager = (GuideViewPager) findViewById(R.id.viewpager_launcher);
         vPager.setBackGroud(BitmapFactory.decodeResource(getResources(),R.drawable.bg_kaka_launcher));
