@@ -30,7 +30,7 @@ public class MainActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+          //aa
         //初始化点点点控件
         ViewGroup group = (ViewGroup)findViewById(R.id.viewGroup);
         tips = new ImageView[3];
